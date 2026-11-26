@@ -1,0 +1,17 @@
+node_modules/
+dist/
+release/
+*.zip
+
+# 运行时数据（含真实提交内容，绝不入库）
+data/
+.env
+.env.local
+
+# 本地/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+.workbuddy/

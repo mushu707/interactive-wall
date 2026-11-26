@@ -1,0 +1,46 @@
+{
+  "name": "interactive-wall",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "自托管的活动互动墙：扫码上墙 / 内容投票 / 现场抽奖",
+  "keywords": [
+    "event-wall",
+    "interactive",
+    "qr-code",
+    "live-draw",
+    "vue3",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mushu707/interactive-wall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mushu707/interactive-wall/issues"
+  },
+  "homepage": "https://github.com/mushu707/interactive-wall#readme",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite",
+    "dev:server": "node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "seed": "node server/seed.js",
+    "sim": "node scripts/sim.mjs",
+    "pack": "node scripts/pack.mjs"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
+}
